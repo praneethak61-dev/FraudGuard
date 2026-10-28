@@ -1,0 +1,9 @@
+tensorflow-cpu>=2.10.0
+numpy
+pandas
+joblib
+scikit-learn
+xgboost
+fastapi
+uvicorn[standard]
+pydantic

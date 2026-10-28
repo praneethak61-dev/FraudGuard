@@ -1,0 +1,40 @@
+# Secrets / credentials
+.env
+.env.*
+**/.env
+**/.env.*
+token.json
+
+# Node
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Large data files (exceed GitHub limits)
+Jiya project/creditcard.csv
+
+# Notebook training output (not used by the live pipeline; pipeline uses fraud-service/ml/*.h5,*.joblib)
+Jiya project/saved_models/
+
+# Log / scratch output
+stderr.txt
+stdout.txt
+test_output.txt
+verify_output.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
